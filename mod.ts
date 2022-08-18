@@ -8,6 +8,9 @@ async function handleRequest(request: Request): Promise<Response> {
 	if (filePath === "./public/") {
 		filePath += "index.html";
 	}
+	if (filePath === "./public/reports/" && filePath === "./public/reports") {
+		filePath += "index.html";
+	}
 	const extension = extname(filePath);
 	try {
 		const file = await Deno.readFile(filePath);
