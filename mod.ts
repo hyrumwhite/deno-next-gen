@@ -8,12 +8,9 @@ async function handleRequest(request: Request): Promise<Response> {
 	if (filePath === "./public/") {
 		filePath += "index.html";
 	}
-	console.log(filePath, "./public/reports");
 	if (filePath === "./public/reports/" || filePath === "./public/reports") {
-		console.log("here??");
 		filePath += "/index.html";
 	}
-	console.log(filePath);
 	const extension = extname(filePath);
 	try {
 		const file = await Deno.readFile(filePath);
@@ -29,4 +26,4 @@ async function handleRequest(request: Request): Promise<Response> {
 	}
 }
 
-serve(handleRequest, { port: 3444 });
+serve(handleRequest);
