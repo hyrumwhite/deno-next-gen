@@ -1,1 +1,0 @@
-import{a as s,o as t,b as c,e}from"./entry.741fbdb0.mjs";const o={},n={class:"d-flex flex-column gap-8"},a=e("div",{style:{height:"39px"},class:"d-flex align-center justify-between"},[e("h1",null,"Exceptions")],-1),l=[a];function _(i,r){return t(),c("div",n,l)}const f=s(o,[["render",_]]);export{f as default};
