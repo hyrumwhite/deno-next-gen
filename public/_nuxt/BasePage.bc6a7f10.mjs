@@ -1,0 +1,1 @@
+import{a as n,o as t,h as o,r as s}from"./entry.7c2814e6.mjs";const _={},r={class:"text-2xl"};function a(e,c){return t(),o("h1",r,[s(e.$slots,"default")])}const m=n(_,[["render",a]]),l={},f={class:"flex flex-column max-w-full grow"};function d(e,c){return t(),o("div",f,[s(e.$slots,"default")])}const x=n(l,[["render",d]]);export{x as _,m as a};
